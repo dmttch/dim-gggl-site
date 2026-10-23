@@ -1,0 +1,36 @@
+[project]
+name = "dim-gggl-site"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dmttch", email = "dmttch@proton.me" }
+]
+requires-python = ">=3.14.0"
+dependencies = [
+    "black==26.10.1",
+    "dj-database-url==3.1.2",
+    "django==6.1.2",
+    "django-compressor==4.6.0",
+    "django-debug-toolbar==8.0.0",
+    "django-ratelimit==4.1.0",
+    "django-redis==7.0.0",
+    "django-tailwind==4.6.0",
+    "flake8==7.4.1",
+    "gunicorn==26.2.0",
+    "pillow==13.0.0",
+    "psycopg==3.3.6",
+    "pytest==9.1.1",
+    "pytest-django==4.14.0",
+    "python-dotenv==1.2.4",
+    "redis==8.1.0",
+    "sentry-sdk==2.73.0",
+    "whitenoise==6.12.0",
+]
+
+[project.scripts]
+dim-gggl-site = "dim_gggl_site:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
