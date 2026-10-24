@@ -530,7 +530,7 @@ PORTFOLIO_PERSON = {
     "name": "Dimitri Gaggioli",
     "title": "Python Developer - Backend",
     "baseline": "Think. Code. Push.",
-    "location": "Paris",
+    "location": "Marseille",
     "contact_email": "dimitri.gaggioli@gmail.com",
     "contact_phone": "+33620156172",
     "github": "https://github.com/dim-gggl",
