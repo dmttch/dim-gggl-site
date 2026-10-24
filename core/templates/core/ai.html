@@ -41,19 +41,6 @@
           <p class="prose-body mt-4">{{ ai_page.prompting.video.body|translate_content }}</p>
           <a href="{{ ai_page.prompting.video.sora_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-line mt-6">{{ ai_page.prompting.video.cta_label|translate_content }}</a>
         </article>
-
-        <article aria-labelledby="jailbreak-title" class="border-t border-(--rule) pt-8">
-          <h3 id="jailbreak-title" class="heading">{{ ai_page.prompting.jailbreak.title|translate_content }}</h3>
-          <p class="prose-body mt-4">{{ ai_page.prompting.jailbreak.body|translate_content|linebreaksbr }}</p>
-          {% if ai_page.prompting.jailbreak.screenshot_path %}
-            <button type="button" class="mt-6 block w-full cursor-zoom-in text-left" data-lightbox-trigger="jailbreak-lightbox" aria-haspopup="dialog">
-              <span class="block max-h-96 overflow-hidden bg-plane">
-                <img src="{% static 'images/Jailbreak_grok.png' %}" alt="{{ ai_page.prompting.jailbreak.image_alt }}" class="block h-auto w-full transition duration-700 hover:scale-[1.02]" loading="lazy">
-              </span>
-              <span class="small muted mt-3 block">{% t "ai.lightbox_open" %}</span>
-            </button>
-          {% endif %}
-        </article>
       </div>
     </div>
   </section>

@@ -994,5 +994,142 @@ CONTENT_TRANSLATIONS: dict[str, dict[str, str]] = {
         "Adapts to your area and preferred supermarket": (
             "S'adapte à votre zone et à votre supermarché préféré"
         ),
+        "Local AI coding agent for Apple Silicon Macs powered by Ollama.": (
+            "Agent de développement IA local pour Mac Apple Silicon propulsé par Ollama."
+        ),
+        "Gemma Agents is a local AI development agent designed for Apple Silicon macOS, powered by a locally installed Ollama model. It explores a workspace, prepares or applies logged code edits with conflict detection, runs approved validation commands inside a macOS sandbox, and persists conversations, plans, and scheduled tasks in SQLite.\nDocumentation is hosted on Read the Docs at https://gemma-agents.readthedocs.io.": (
+            "Gemma Agents est un agent de développement IA local conçu pour "
+            "macOS Apple Silicon, piloté par un modèle Ollama installé "
+            "localement. Il explore un workspace, prépare ou applique des "
+            "modifications journalisées avec détection des conflits, exécute "
+            "des commandes de validation approuvées dans un sandbox macOS et "
+            "conserve les conversations, plans et tâches planifiées dans SQLite.\n"
+            "La documentation est hébergée sur Read the Docs à l'adresse "
+            "https://gemma-agents.readthedocs.io."
+        ),
+        "Designing a reliable local agent loop with tool calling, diff-based edit review and rollback, expiring permissions, and macOS sandbox isolation.": (
+            "Concevoir une boucle d'agent local fiable avec appel d'outils, "
+            "revue et annulation des modifications par blocs, permissions "
+            "expirantes et isolation dans le sandbox macOS."
+        ),
+        "Local LLM orchestration with Ollama, agentic tool design, FastAPI WebSocket streaming, SQLite persistence, and Sphinx documentation": (
+            "Orchestration de LLM locaux avec Ollama, conception d'outils "
+            "agentiques, streaming WebSocket FastAPI, persistance SQLite et "
+            "documentation Sphinx"
+        ),
+        "Interactive terminal interface with streaming responses and session resumption": (
+            "Interface terminal interactive avec réponses en streaming et "
+            "reprise des sessions"
+        ),
+        "Workspace exploration, AGENTS.md instructions, custom skills, and optional memory": (
+            "Exploration du workspace, instructions AGENTS.md, skills "
+            "personnalisés et mémoire facultative"
+        ),
+        "Logged file edits, hunk-by-hunk review, and rollback with conflict detection": (
+            "Modifications de fichiers journalisées, revue par blocs et "
+            "annulation avec détection des conflits"
+        ),
+        "Execution plans, persistent tasks, validation checks, and cron scheduling": (
+            "Plans d'exécution, tâches persistantes, contrôles de validation "
+            "et planification cron"
+        ),
+        "Controlled Git tools, expiring permissions, and macOS sandbox execution": (
+            "Outils Git contrôlés, permissions expirantes et exécution en "
+            "sandbox macOS"
+        ),
+        "Local HTTP/WebSocket API with FastAPI and SQLite backup/restore": (
+            "API HTTP/WebSocket locale avec FastAPI et sauvegarde/restauration SQLite"
+        ),
+        "Article 50 AI Act compliance toolkit: scan, mark, document, and monitor.": (
+            "Kit de conformité Article 50 de l'AI Act : scanner, marquer, "
+            "documenter et surveiller."
+        ),
+        "Sceau is a web platform and API that helps organizations meet the transparency obligations of Article 50 of the EU AI Act (Regulation 2024/1689). It crawls websites to detect undisclosed chatbots and inspect image provenance metadata, signs images with C2PA manifests and IPTC/XMP DigitalSourceType metadata, generates disclosure wording, an AI system register, and white-label PDF audit reports, and monitors sites with scheduled re-scans and regression alerts.": (
+            "Sceau est une plateforme web et une API qui aide les "
+            "organisations à répondre aux obligations de transparence de "
+            "l'Article 50 de l'AI Act européen (Règlement 2024/1689). Elle "
+            "parcourt les sites web pour détecter les chatbots non déclarés "
+            "et inspecter les métadonnées de provenance des images, signe les "
+            "images avec des manifestes C2PA et des métadonnées IPTC/XMP "
+            "DigitalSourceType, génère les mentions d'information, le "
+            "registre des systèmes d'IA et des rapports d'audit PDF en marque "
+            "blanche, et assure une veille via des re-scans planifiés et des "
+            "alertes de régression."
+        ),
+        "Implementing cryptographic C2PA manifest signing, IPTC/XMP metadata embedding, and invisible watermarking alongside a Playwright-based scanner and OWASP ASVS L1 security hardening.": (
+            "Implémenter la signature cryptographique de manifestes C2PA, "
+            "l'intégration de métadonnées IPTC/XMP et le tatouage invisible, "
+            "conjointement à un scanner basé sur Playwright et un "
+            "durcissement sécurité OWASP ASVS L1."
+        ),
+        "Django 6, DRF, Celery, Redis, C2PA provenance standards, Playwright crawling, WeasyPrint PDF generation, and Stripe billing": (
+            "Django 6, DRF, Celery, Redis, standards de provenance C2PA, "
+            "crawling Playwright, génération PDF WeasyPrint et facturation Stripe"
+        ),
+        "Automated site scanner - Crawls web pages with Playwright to detect chat widgets, verify opening disclosures, and inventory image provenance metadata": (
+            "Scanner de site automatisé - Parcourt les pages web avec "
+            "Playwright pour détecter les widgets de chat, vérifier leurs "
+            "mentions d'ouverture et inventorier les métadonnées de "
+            "provenance des images"
+        ),
+        "Provenance marking studio & API - Embeds signed C2PA manifests, IPTC/XMP DigitalSourceType metadata, visible badges, and invisible watermarks (single image, API, or ZIP batch)": (
+            "Studio et API de marquage - Intègre des manifestes C2PA signés, "
+            "des métadonnées IPTC/XMP DigitalSourceType, des badges visibles "
+            "et des tatouages invisibles (à l'unité, via API ou par lot ZIP)"
+        ),
+        "Compliance documentation - Generates Article 50 disclosure wording, the AI system register, and white-label PDF audit reports": (
+            "Documentation de conformité - Génère les mentions d'information "
+            "Article 50, le registre des systèmes d'IA et des rapports "
+            "d'audit PDF en marque blanche"
+        ),
+        "Scheduled monitoring - Runs periodic re-scans, computes compliance diffs, and sends regression alerts": (
+            "Surveillance planifiée - Exécute des re-scans périodiques, "
+            "calcule les écarts de conformité et envoie des alertes en cas "
+            "de régression"
+        ),
+        "Multi-tenant billing & security - Stripe subscriptions, plan quotas, S3-compatible storage, and OWASP ASVS L1 security verification (1,500+ tests, 91% coverage)": (
+            "Facturation multi-tenant et sécurité - Abonnements Stripe, "
+            "quotas par plan, stockage compatible S3 et vérification "
+            "sécurité OWASP ASVS L1 (plus de 1 500 tests, 91 % de couverture)"
+        ),
+        "A retro terminal companion that turns web pages, documents, and PDFs into Markdown.": (
+            "Un compagnon de terminal rétro qui convertit pages web, "
+            "documents et PDF en Markdown."
+        ),
+        "TMD (To Markdown) is a Python CLI with a guided interactive terminal interface, a cyan/amber retro palette, and a custom animated conversion head. It converts web pages, plain text, RTF, OpenDocument (.odt), Word (.docx), local HTML, and PDF files into clean Markdown while preserving headings, links, lists, code blocks, and tables.": (
+            "TMD (To Markdown) est une CLI Python dotée d'une interface "
+            "terminal interactive guidée, d'une palette rétro cyan/ambre et "
+            "d'une tête de conversion animée sur mesure. Elle convertit les "
+            "pages web, fichiers texte, RTF, OpenDocument (.odt), Word "
+            "(.docx), HTML locaux et PDF en Markdown propre tout en "
+            "préservant les titres, liens, listes, blocs de code et tableaux."
+        ),
+        "Preserving document structure across heterogeneous formats (HTML, ODT, DOCX, RTF, PDF) while keeping stdout clean for piping and rendering animations exclusively on stderr.": (
+            "Préserver la structure documentaire à travers des formats "
+            "hétérogènes (HTML, ODT, DOCX, RTF, PDF) tout en gardant stdout "
+            "propre pour les redirections et en affichant les animations "
+            "exclusivement sur stderr."
+        ),
+        "Document parsing pipelines, Rich terminal animations, POSIX stream ergonomics, and cross-platform CI with GitHub Actions": (
+            "Pipelines d'analyse documentaire, animations terminal Rich, "
+            "ergonomie des flux POSIX et CI multiplateforme avec GitHub Actions"
+        ),
+        "Multi-format conversion - Converts HTTP(S) web pages, .txt, .rtf, .odt, .docx, .html, and .pdf files into structured Markdown": (
+            "Conversion multiformat - Convertit les pages web HTTP(S) et les "
+            "fichiers .txt, .rtf, .odt, .docx, .html et .pdf en Markdown structuré"
+        ),
+        "Dual mode CLI - Supports both one-shot flags (tmd web, tmd text, tmd pdf) and an interactive guided menu": (
+            "CLI double mode - Supporte à la fois les commandes directes "
+            "(tmd web, tmd text, tmd pdf) et un menu interactif guidé"
+        ),
+        "Pipe-friendly output - Emits pure Markdown when stdout is redirected while routing status messages and animations to stderr": (
+            "Sortie adaptée aux pipes - Émet uniquement du Markdown lorsque "
+            "stdout est redirigé tout en routant les statuts et animations "
+            "vers stderr"
+        ),
+        "Retro terminal UI - Custom cyan/amber palette with an animated conversion head and NO_COLOR / --no-animation support": (
+            "Interface terminal rétro - Palette cyan/ambre sur mesure avec "
+            "tête de conversion animée et support de NO_COLOR / --no-animation"
+        ),
     }
 }

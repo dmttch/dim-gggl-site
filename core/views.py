@@ -29,7 +29,9 @@ CLI_PROJECT_SLUGS = [
     "clinkey-cli",
     "yotta",
     "super-pocket",
-    "video-specs"
+    "video-specs",
+    "gemma-agents",
+    "tmd",
 ]
 
 DJANGO_TECH_SLUGS = ["django", "django-rest-framework"]
